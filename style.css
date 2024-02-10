@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%;
+}
+
+body {
+  background: linear-gradient(rgba(179, 22, 22, 0.947), rgba(108, 10, 10, 0.903), rgba(179, 22, 22 , 0.947));
+  font-size: 1.6rem;
+  color: rgba(255, 255, 255, 0.97);  
+}
+
+#app {
+  width: 33.0rem;
+  margin: auto;
+}
+
+h1, h2, h3, p {
+  font-family: 'Poppins', sans-serif;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+h1, h2 {
+  margin-top: 2.0rem;
+  margin-bottom: 1.0rem;
+  text-align: center;
+}
+
+h3 {
+  margin: 1.0rem auto;
+}
+
+button {
+  border: none;
+  border-radius: 0.8rem;
+  text-decoration: none;
+  cursor: pointer;  
+  padding: 1.0rem 0.5rem;
+  margin-top: 2.0rem;
+  background-color: rgba(37, 211, 101, 0.868);
+  width: 75%;
+  font-size: 1.6rem;
+  font-weight: bold;
+  color: rgba(255, 255, 255, 0.97);
+}
+
+nav {
+  padding: 0;
+  display: flex;
+  margin-bottom: 2.0rem;
+}
+
+a {
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+}
+
+.icons {
+  max-width: 50%;
+  height: auto;
+  margin: 0 1rem;
+}
